@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 .top-section{
     display: flex;
@@ -115,5 +116,21 @@ body{
     text-align: center;
     padding: 0px 25px;
 
+}
+footer{
+    background-color: #000000;
+}
+.footer-elements{
+    padding: 25px 0px;
+}
+.footer-elements h1{
+    text-align: center;
+}
+.place{
+    color: #838281;
+}
+.footer-elements p{
+    text-align: center;
+    color: #ffffff;
 }
 
