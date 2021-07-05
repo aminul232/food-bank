@@ -3,6 +3,7 @@ body{
 }
 .top-section{
     display: flex;
+    margin-bottom: 40px;
 }
 .food{
     color: #FB934A;
@@ -40,4 +41,35 @@ body{
     , #d18569 0%,  #db4d30);
     text-decoration: none;
     border-radius: 25px;
+}
+.about-section{
+    display: flex;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+.about-section-left{
+    width: 50%;
+}
+.about-section-left img{
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+.about-section-right{
+    width: 50%;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+.about-section-right h2{
+    color: #838281;
+    font-size: 26px;
+    font-weight: 600;
+}
+.about-section-right p{
+    font-size: 18px;
+    color: rgba(27, 24, 24, 0.575);
+    padding-right: 180px;
+    margin-bottom: 70px;
+    text-align: justify;
 }
