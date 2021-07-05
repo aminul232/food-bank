@@ -90,7 +90,7 @@ body{
 }
 .recipie-section-two-row{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     
 }
 .recipie-section-two-row-column{
@@ -117,6 +117,45 @@ body{
     padding: 0px 25px;
 
 }
+.customer-section{
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.customer-review{
+    padding: 25px 0px;
+}
+
+.customer-review img{
+    width: 10%;
+    display: block;
+    margin: auto;
+    border: 5px solid gray;
+    border-radius: 50%;
+}
+.customer-review p{
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 135px;
+}
+.customer-review h3{
+    text-align: center;
+    margin: 0%;
+}
+.customer-review h6{
+    text-align: center;
+    margin: 0%;
+    font-size: 15px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
 footer{
     background-color: #000000;
 }
@@ -132,5 +171,7 @@ footer{
 .footer-elements p{
     text-align: center;
     color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
