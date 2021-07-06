@@ -91,10 +91,12 @@ body{
 .recipie-section-two-row{
     display: flex;
     margin-bottom: 100px;
+    width: 80%;
+    margin: auto;
     
 }
 .recipie-section-two-row-column{
-    width: 33.31%;
+    width: 35%;
     display: block;
     margin: auto;
     box-shadow: 10px 10px 40px gray;
@@ -116,6 +118,22 @@ body{
     text-align: center;
     padding: 0px 25px;
 
+}
+.recipie-section-two-row-column a{
+    padding:1em;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none !important;
+    margin:0 auto;
+    color: #D6694D;
+
+}
+.recipie-section-two-row-column a:hover{
+    color: teal;
+}
+.see-more-button{
+    width: 100%;
+    text-align: center;
 }
 .customer-section{
     margin-bottom: 50px;
